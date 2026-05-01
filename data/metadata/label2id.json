@@ -1,0 +1,8 @@
+{
+    "Hardware": 0,
+    "HR Support": 1,
+    "Access": 2,
+    "Storage": 3,
+    "Purchase": 4,
+    "Administrative rights": 5
+}

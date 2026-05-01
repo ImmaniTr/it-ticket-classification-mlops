@@ -1,0 +1,36 @@
+it-ticket-classification-mlops/
+│
+├── data/
+│   ├── raw/
+│   │   └── raw_tickets.csv
+│   │
+│   ├── processed/
+│   │   └── clean_tickets.csv
+│   │
+│   └── splits/
+│       ├── train.csv
+│       └── test.csv
+│
+├── notebooks/
+│   ├── 01_data_preparation.ipynb
+│   ├── 02_eda_and_preprocessing.ipynb
+│   └── 03_model_training.ipynb
+│
+├── src/
+│   ├── data/
+│   ├── features/
+│   ├── models/
+│   └── utils/
+│
+├── models/
+│   └── (saved models later)
+│
+├── app/
+│   └── (FastAPI later)
+│
+├── mlruns/
+│   └── (MLflow experiments later)
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
