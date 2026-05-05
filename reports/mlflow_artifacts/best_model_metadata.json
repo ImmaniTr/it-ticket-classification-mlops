@@ -1,0 +1,11 @@
+{
+    "registered_model_name": "it_ticket_classifier_best_model",
+    "selection_metric": "f1_weighted",
+    "best_run_name": "run_03_optimized_configuration",
+    "best_run_id": "bf57e2ebb06944b493ba7f1468464a01",
+    "accuracy": 0.9019337016574586,
+    "precision_weighted": 0.9017435973120227,
+    "recall_weighted": 0.9019337016574586,
+    "f1_weighted": 0.9017516262914735,
+    "evaluation_time_seconds": 624.4035046100616
+}

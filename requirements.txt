@@ -1,0 +1,23 @@
+# API
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.8.2
+python-multipart
+
+# Core
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+
+# Transformers / Deep Learning
+transformers==4.44.2
+torch>=2.5.0
+safetensors
+
+# Experiment Tracking
+mlflow
+
+# Visualization (artifacts)
+matplotlib
