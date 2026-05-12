@@ -27,9 +27,7 @@ jobs:
           aws s3 cp s3://${{ secrets.S3_MODEL_BUCKET }}/run_03/ models/run_03/ --recursive
 
       - name: Login to Amazon ECR
-        run: |
-          aws ecr get-login-password --region ${{ secrets.AWS_REGION }} \
-          | docker login --username AWS --password-stdin ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com
+        uses: aws-actions/amazon-ecr-login@v2
 
       - name: Build Docker image
         run: |
