@@ -121,6 +121,9 @@ def predict(request: PredictionRequest):
         return_tensors="pt",
     )
 
+    # Remove token_type_ids because DistilBERT does not use them.
+    inputs.pop("token_type_ids", None)
+
     # Disable gradient calculation because this is inference only.
     with torch.no_grad():
 
